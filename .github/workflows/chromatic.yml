@@ -22,4 +22,5 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }} #Is it working, pls
 
-            # env variable CHROMATIC_PROJECT_TOKEN set
+            # secret CHROMATIC_PROJECT_TOKEN must be set in github repo settings
+            
